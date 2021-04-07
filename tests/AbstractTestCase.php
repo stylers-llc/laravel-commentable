@@ -24,6 +24,6 @@ abstract class AbstractTestCase extends AbstractPackageTestCase
      */
     protected function getServiceProviderClass()
     {
-        return \Artisanry\Commentable\CommentableServiceProvider::class;
+        return \Stylers\Commentable\CommentableServiceProvider::class;
     }
 }
