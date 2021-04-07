@@ -20,11 +20,9 @@ abstract class AbstractTestCase extends AbstractPackageTestCase
     /**
      * Get the service provider class.
      *
-     * @param \Illuminate\Interfaces\Foundation\Application $app
-     *
      * @return string
      */
-    protected function getServiceProviderClass($app): string
+    protected function getServiceProviderClass()
     {
         return \Artisanry\Commentable\CommentableServiceProvider::class;
     }
