@@ -1,6 +1,6 @@
 {
-    "name": "artisanry/commentable",
-    "description": "Commentable Polymorphic Eloquent Models for for Laravel 5",
+    "name": "stylers/laravel-commentable",
+    "description": "Commentable Polymorphic Eloquent Models for for Laravel",
     "keywords": [
         "laravel",
         "framework",
@@ -28,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Artisanry\\Commentable\\": "src/"
+            "Stylers\\Commentable\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Artisanry\\Tests\\Commentable\\": "tests"
+            "Stylers\\Tests\\Commentable\\": "tests"
         }
     },
     "config": {
@@ -46,7 +46,7 @@
         },
         "laravel": {
             "providers": [
-                "Artisanry\\Commentable\\CommentableServiceProvider"
+                "Stylers\\Commentable\\CommentableServiceProvider"
             ]
         }
     },
