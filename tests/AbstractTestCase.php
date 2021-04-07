@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Artisanry\Tests\Commentable;
+namespace Stylers\Tests\Commentable;
 
 use GrahamCampbell\TestBench\AbstractPackageTestCase;
 

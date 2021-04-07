@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Artisanry\Commentable\Traits;
+namespace Stylers\Commentable\Traits;
 
-use Artisanry\Commentable\Models\Comment;
+use Stylers\Commentable\Models\Comment;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 
