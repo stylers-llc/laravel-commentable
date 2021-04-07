@@ -28,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Stylers\\Commentable\\": "src/"
+            "Stylers\\Commentable\\": "src"
         }
     },
     "autoload-dev": {
